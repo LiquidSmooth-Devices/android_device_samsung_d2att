@@ -31,3 +31,4 @@ TARGET_OTA_ASSERT_DEVICE := d2att,d2lte
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2att/board-info.txt
 
+LIQUIFY=true
