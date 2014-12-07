@@ -4,7 +4,7 @@ $(call inherit-product, device/samsung/d2att/full_d2att.mk)
 $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # Inherit some common LiquidSmooth stuff.
-$(call inherit-product, vendor/cm/config/common_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=d2uc \
